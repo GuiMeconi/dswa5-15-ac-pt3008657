@@ -30,7 +30,6 @@ angular.module('ifsp', ['ngRoute', 'ngResource']).config(function($routeProvider
         controller: 'CursoController'
     });
 
-
     $routeProvider.otherwise({ redirectTo: '/contatos' });
 
 });
